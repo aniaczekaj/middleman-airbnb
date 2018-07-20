@@ -4,7 +4,7 @@
 
 .card{
   border: 1px solid #817f7f4d;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  box-shadow: 0 0 10px $light-gray;
   margin: 10px;
   color: white;
 }
@@ -37,13 +37,7 @@
   position: absolute;
   bottom: 20px;
   left: 10px;
-}
-.card-footer {
-  display: flex;
-  color: #817f7f4d;
-  padding: 10px;
-  justify-content: space-between;
-  margin: 10px 0 20px 0;
+  text-shadow: 2px 2px 5px black;
 }
 
 .card-links a{
@@ -51,6 +45,11 @@
   padding: 5px;
 }
 
-i:hover {
-  color: #817f7fcc;
+.card p{
+  font-weight: lighter;
 }
+
+.card h3{
+  font-size: 25px;
+}
+
