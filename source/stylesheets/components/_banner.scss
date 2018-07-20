@@ -1,0 +1,26 @@
+.banner{
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-content{
+  size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.banner-content h2 {
+  font-size: 50px;
+  font: "Varela", "Helvetica", "sans-serif";
+}
+
+.banner-content p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 50px;
+}
